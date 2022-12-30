@@ -1,0 +1,25 @@
+{
+  "current": {
+    "logo": "shopify:\/\/shop_images\/default-avatar-300x300.png",
+    "logo_width": 100,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "menu": "main-menu",
+          "menu_legal": "footer",
+          "menu_social": ""
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

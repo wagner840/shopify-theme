@@ -1,0 +1,29 @@
+{%- assign products_per_page = 12 -%}
+<div class="container">
+  {%- paginate collection.products by products_per_page -%}
+
+    {%- if collection.products.size == 0 -%}
+      <p>EMPTY</p>
+    {%- else -%}
+
+      <div class="products">
+        {%- for product in collection.products -%}
+          {% render 'product-item' with product as product_item %}
+        {%- endfor -%}
+      </div>
+
+      {%- if paginate.pages > 1 -%}
+        {% render 'pagination', paginate: paginate, anchor: '' %}
+      {%- endif -%}
+
+    {%- endif -%}
+
+  {%- endpaginate -%}
+</div>
+
+{% schema %}
+  {
+    "name": "t:main.collection.product-grid",
+    "tag": "section"
+  }
+{% endschema %}

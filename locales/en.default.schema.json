@@ -1,0 +1,100 @@
+{
+  "settings_schema": {
+  },
+  "main": {
+    "account": {
+      "name": "Account"
+    },
+    "activate-account": {
+      "name": "Activate account"
+    },
+    "address": {
+      "name": "Address"
+    },
+    "cart": {
+      "name": "Cart"
+    },
+    "collection": {
+      "product-grid": "Products grid"
+    },
+    "login": {
+      "name": "Login"
+    },
+    "name": "Main content",
+    "order": {
+      "name": "Order"
+    },
+    "product": {
+      "name": "Product sheet"
+    },
+    "register": {
+      "name": "Register"
+    },
+    "reset-password": {
+      "name": "Reset password"
+    }
+  },
+  "sections": {
+    "global": {
+      "a11y": "For accessibility",
+      "background": "Background color",
+      "danger": "Danger",
+      "image": "Image",
+      "large": "Large",
+      "medium": "Medium",
+      "nb_column": "Number of column",
+      "primary": "Primary",
+      "size": "Size",
+      "small": "Small",
+      "subtitle": "Block subtitle",
+      "success": "Success",
+      "text": "Texte",
+      "title": "Block title",
+      "type": "Type",
+      "url": "URL",
+      "video": "Video",
+      "warning": "Warning"
+    },
+    "alert": {
+      "name": "Alert"
+    },
+    "cards": {
+      "name": "Editorial (Cards)"
+    },
+    "editorial": {
+      "name": "Editorial"
+    },
+    "external-video": {
+      "name": "Embed video",
+      "title": "Video title"
+    },
+    "featured-articles": {
+      "name": "Featured articles",
+      "article": "Article"
+    },
+    "featured-collections": {
+      "name": "Featured collections",
+      "collection_list": "Collections"
+    },
+    "featured-products": {
+      "name": "Featured products",
+      "product_list": "Products"
+    },
+    "image": {
+      "name": "Image"
+    },
+    "newsletter": {
+      "name": "Newsletter"
+    },
+    "product-recommendations": {
+      "name": "Product recommendations"
+    },
+    "quote": {
+      "name": "Quote",
+      "author": "Author"
+    },
+    "video": {
+      "name": "Video"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Sebousan",
+    "theme_version": "1.0.0",
+    "theme_author": "Sébastien Moulène",
+    "theme_documentation_url": "https:\/\/github.com\/sebousan\/shopify-theme",
+    "theme_support_url": "https:\/\/github.com\/sebousan\/shopify-theme\/issues"
+  },
+  {
+    "name": "Global",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      },
+      {
+        "type": "number",
+        "id": "logo_width",
+        "label": "Largeur du logo",
+        "default": 150
+      }
+    ]
+  },
+  {
+    "name": "Produits",
+    "settings": [
+      {
+        "type": "number",
+        "id": "products_per_page",
+        "label": "Produits par page",
+        "default": 12
+      },
+      {
+        "type": "range",
+        "id": "product_media_ratio",
+        "label": "Ratio de l'image produit",
+        "min": 20,
+        "max": 100,
+        "step": 10,
+        "default": 50
+      }
+    ]
+  }
+]

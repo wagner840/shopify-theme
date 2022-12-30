@@ -1,0 +1,47 @@
+{% liquid 
+  assign title = section.settings.title
+  assign subtitle = section.settings.subtitle
+  assign collections = section.settings.collection_list
+%}
+
+<div class="container">
+  {% render 'block-heading', title: title, subtitle: subtitle %}
+
+  {%- if collections != blank -%}
+    <div class="collections">
+      {%- for collection in collections -%}
+        {% render 'collection-item' with collection as collection_item %}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.featured-collections.name",
+    "tag": "section",
+    "class": "block-featured-collections",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "t:sections.global.title"
+      }, {
+        "type": "richtext",
+        "id": "subtitle",
+        "label": "t:sections.global.subtitle"
+      }, {
+        "type": "collection_list",
+        "id": "collection_list",
+        "label": "t:sections.featured-collections.collection_list",
+        "limit": 4
+      }
+    ],
+
+    "presets": [
+      {
+        "name": "t:sections.featured-collections.name"
+      }
+    ]
+  }
+{% endschema %}

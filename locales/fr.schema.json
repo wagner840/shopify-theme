@@ -1,0 +1,100 @@
+{
+  "settings_schema": {
+  },
+  "main": {
+    "account": {
+      "name": "Account"
+    },
+    "activate-account": {
+      "name": "Activate account"
+    },
+    "address": {
+      "name": "Address"
+    },
+    "cart": {
+      "name": "Panier"
+    },
+    "collection": {
+      "product-grid": "Grille produits"
+    },
+    "login": {
+      "name": "Login"
+    },
+    "name": "Contenu principal",
+    "order": {
+      "name": "Order"
+    },
+    "product": {
+      "name": "Fiche produit"
+    },
+    "register": {
+      "name": "Formulaire d’inscription"
+    },
+    "reset-password": {
+      "name": "Reset password"
+    }
+  },
+  "sections": {
+    "global": {
+      "a11y": "Pour l’accessibilité",
+      "background": "Couleur d’arrière plan",
+      "danger": "Danger",
+      "image": "Image",
+      "large": "Grand",
+      "medium": "Moyen",
+      "nb_column": "Nombre de colonne",
+      "primary": "Primary",
+      "size": "Taille",
+      "small": "Petit",
+      "subtitle": "Sous-titre du bloc",
+      "success": "Succès",
+      "text": "Texte",
+      "title": "Titre du bloc",
+      "type": "Type",
+      "url": "URL",
+      "video": "Vidéo",
+      "warning": "Warning"
+    },
+    "alert": {
+      "name": "Alerte"
+    },
+    "cards": {
+      "name": "Editorial (Cards)"
+    },
+    "editorial": {
+      "name": "Editorial"
+    },
+    "external-video": {
+      "name": "Vidéo intégrée (embed)",
+      "title": "Titre de la vidéo"
+    },
+    "featured-articles": {
+      "name": "Articles sélectionnés",
+      "article": "Article"
+    },
+    "featured-collections": {
+      "name": "Collections sélectionnées",
+      "collection_list": "Collections"
+    },
+    "featured-products": {
+      "name": "Produits sélectionnées",
+      "product_list": "Produits"
+    },
+    "image": {
+      "name": "Image"
+    },
+    "newsletter": {
+      "name": "Newsletter"
+    },
+    "product-recommendations": {
+      "name": "Recommendations de produits"
+    },
+    "quote": {
+      "name": "Citation",
+      "author": "Auteur"
+    },
+    "video": {
+      "name": "Vidéo"
+    }
+  }
+}
